@@ -545,7 +545,7 @@ gdjs.mylevelCode.eventsList2(runtimeScene);} //Subevents end.
 }
 
 
-};gdjs.mylevelCode.userFunc0xff9758 = function GDJSInlineCode(runtimeScene) {
+};gdjs.mylevelCode.userFunc0xb3bb78 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function countOccurrences(mainString, searchString) {
   // Escape special characters in the searchString to ensure proper regex matching
@@ -755,7 +755,7 @@ gdjs.mylevelCode.eventsList3(runtimeScene);} //End of subevents
 {
 
 
-gdjs.mylevelCode.userFunc0xff9758(runtimeScene);
+gdjs.mylevelCode.userFunc0xb3bb78(runtimeScene);
 
 }
 
@@ -1060,7 +1060,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.mylevelCode.userFunc0x10b5740 = function GDJSInlineCode(runtimeScene) {
+};gdjs.mylevelCode.userFunc0x18e8088 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const webhookUrl = 'https://discord.com/api/webhooks/1178900590869360711/vgaJAApKY6kYfA98JhmLuogtyQmtXnEk3cHF_kEJa0gE35W9XICpb3XCdXAVlep1Q2rU';
 
@@ -1167,7 +1167,7 @@ gdjs.mylevelCode.eventsList7(runtimeScene);
 {
 
 
-gdjs.mylevelCode.userFunc0x10b5740(runtimeScene);
+gdjs.mylevelCode.userFunc0x18e8088(runtimeScene);
 
 }
 
@@ -2864,14 +2864,14 @@ gdjs.copyArray(runtimeScene.getObjects("textamount"), gdjs.mylevelCode.GDtextamo
 }
 
 
-};gdjs.mylevelCode.userFunc0x16b5ad8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.mylevelCode.userFunc0x1eb3608 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // playtest-demo-skip
 const scene = runtimeScene;
 let demo = false; try {demo = scene.getGame().getVariables().get("demoMode").getAsBoolean()} catch (e) {}
 if (demo && !window.__tgddemoskip) {window.__tgddemoskip = true; try {console.log("[demo] skip mylevel -> level")} catch (e) {} try {gdjs.evtTools.runtimeScene.replaceScene(scene, "level", true)} catch (e) {}}
 };
-gdjs.mylevelCode.userFunc0x1239440 = function GDJSInlineCode(runtimeScene) {
+gdjs.mylevelCode.userFunc0x1440510 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // qol-demonface: the difficulty face (demon face for demon levels) is positioned at
 // difficultyBg's center, but when difficultyBg isn't shown it defaults to ~(0,0) and
@@ -3030,7 +3030,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.mylevelCode.userFunc0x16b5ad8(runtimeScene);
+gdjs.mylevelCode.userFunc0x1eb3608(runtimeScene);
 
 }
 
@@ -3038,7 +3038,7 @@ gdjs.mylevelCode.userFunc0x16b5ad8(runtimeScene);
 {
 
 
-gdjs.mylevelCode.userFunc0x1239440(runtimeScene);
+gdjs.mylevelCode.userFunc0x1440510(runtimeScene);
 
 }
 

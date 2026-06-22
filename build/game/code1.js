@@ -9066,7 +9066,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.editorCode.userFunc0x14d5cf8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.editorCode.userFunc0x1545210 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 /*//////////////////////////////////////////////////////////////////////*/
 // editor object-layer selector (recovered from code1.js eventsList46/47/48
@@ -9175,12 +9175,12 @@ gdjs.editorCode.eventsList84 = function(runtimeScene) {
 {
 
 
-gdjs.editorCode.userFunc0x14d5cf8(runtimeScene);
+gdjs.editorCode.userFunc0x1545210(runtimeScene);
 
 }
 
 
-};gdjs.editorCode.userFunc0x14d5eb8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.editorCode.userFunc0x15453d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 /*//////////////////////////////////////////////////////////////////////*/
 // editor settings panel (gear in the pause menu), recovered from code1.js.
@@ -9459,12 +9459,12 @@ gdjs.editorCode.eventsList85 = function(runtimeScene) {
 {
 
 
-gdjs.editorCode.userFunc0x14d5eb8(runtimeScene);
+gdjs.editorCode.userFunc0x15453d0(runtimeScene);
 
 }
 
 
-};gdjs.editorCode.userFunc0x14d60a0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.editorCode.userFunc0x15455b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 /*//////////////////////////////////////////////////////////////////////*/
 // snap mouse block (recovered from code1.js eventsList159/161/162/163).
@@ -9525,12 +9525,12 @@ gdjs.editorCode.eventsList86 = function(runtimeScene) {
 {
 
 
-gdjs.editorCode.userFunc0x14d60a0(runtimeScene);
+gdjs.editorCode.userFunc0x15455b8(runtimeScene);
 
 }
 
 
-};gdjs.editorCode.userFunc0x14d6288 = function GDJSInlineCode(runtimeScene) {
+};gdjs.editorCode.userFunc0x1542110 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 /*//////////////////////////////////////////////////////////////////////*/
 // editor pause menu (recovered from code1.js ~25400-25700). the grafted
@@ -9845,12 +9845,12 @@ gdjs.editorCode.eventsList87 = function(runtimeScene) {
 {
 
 
-gdjs.editorCode.userFunc0x14d6288(runtimeScene);
+gdjs.editorCode.userFunc0x1542110(runtimeScene);
 
 }
 
 
-};gdjs.editorCode.userFunc0x14d6470 = function GDJSInlineCode(runtimeScene) {
+};gdjs.editorCode.userFunc0x15422c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 /*//////////////////////////////////////////////////////////////////////*/
 // editor-side decoration colour preview. in the editor every placed tile is
@@ -9924,12 +9924,12 @@ gdjs.editorCode.eventsList88 = function(runtimeScene) {
 {
 
 
-gdjs.editorCode.userFunc0x14d6470(runtimeScene);
+gdjs.editorCode.userFunc0x15422c0(runtimeScene);
 
 }
 
 
-};gdjs.editorCode.userFunc0x1053338 = function GDJSInlineCode(runtimeScene) {
+};gdjs.editorCode.userFunc0x15423e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // editor fill-tool drag-to-create + subcategory
 const scene = runtimeScene;
@@ -10054,7 +10054,7 @@ for (const t of f176) {
   try {tr.setZOrder(t.getZOrder() - 1)} catch (e) {}
 }
 };
-gdjs.editorCode.userFunc0x17f4870 = function GDJSInlineCode(runtimeScene) {
+gdjs.editorCode.userFunc0x15424c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // playtest-demo-button
 const scene = runtimeScene;
@@ -10097,7 +10097,7 @@ if (di) {
 }
 window.__edprevtiles = new Set(curtiles);
 };
-gdjs.editorCode.userFunc0x17f4930 = function GDJSInlineCode(runtimeScene) {
+gdjs.editorCode.userFunc0x1542598 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // qol-challengetime: hide the time-limit input unless time-attack mode
 const scene = runtimeScene;
@@ -10105,7 +10105,7 @@ const num = (vr, d) => {try {return vr.getAsNumber()} catch (e) {return d}};
 let ch = 1; try {ch = num(scene.getVariables().get("info").getChild("challenge"), 1)} catch (e) {}
 if (ch !== 1) {try {for (const o of scene.getObjects("challengeTime")) o.hide(true)} catch (e) {}}
 };
-gdjs.editorCode.userFunc0x10d16d0 = function GDJSInlineCode(runtimeScene) {
+gdjs.editorCode.userFunc0x1542670 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // qol-selectedbutton: the current tool's palette button shows the editorbuttonsselected
 // texture (white outline). for the fill tool, the armed block-type button is outlined too.
@@ -10121,7 +10121,7 @@ try {for (const b of scene.getObjects("editorbutton")) {
   if (b.__outlined !== sel) {b.__outlined = sel; try {b.setTexture(sel ? SEL : NORM, scene)} catch (e) {}}
 }} catch (e) {}
 };
-gdjs.editorCode.userFunc0x1044958 = function GDJSInlineCode(runtimeScene) {
+gdjs.editorCode.userFunc0x1544e80 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // qol-editormusic: the editor plays no music of its own, but the previous level's music
 // (channel 1, global sound manager) carries into the editor and keeps playing. stopping
@@ -10353,7 +10353,7 @@ gdjs.editorCode.eventsList88(runtimeScene);
 {
 
 
-gdjs.editorCode.userFunc0x1053338(runtimeScene);
+gdjs.editorCode.userFunc0x15423e8(runtimeScene);
 
 }
 
@@ -10361,7 +10361,7 @@ gdjs.editorCode.userFunc0x1053338(runtimeScene);
 {
 
 
-gdjs.editorCode.userFunc0x17f4870(runtimeScene);
+gdjs.editorCode.userFunc0x15424c0(runtimeScene);
 
 }
 
@@ -10369,7 +10369,7 @@ gdjs.editorCode.userFunc0x17f4870(runtimeScene);
 {
 
 
-gdjs.editorCode.userFunc0x17f4930(runtimeScene);
+gdjs.editorCode.userFunc0x1542598(runtimeScene);
 
 }
 
@@ -10377,7 +10377,7 @@ gdjs.editorCode.userFunc0x17f4930(runtimeScene);
 {
 
 
-gdjs.editorCode.userFunc0x10d16d0(runtimeScene);
+gdjs.editorCode.userFunc0x1542670(runtimeScene);
 
 }
 
@@ -10385,7 +10385,7 @@ gdjs.editorCode.userFunc0x10d16d0(runtimeScene);
 {
 
 
-gdjs.editorCode.userFunc0x1044958(runtimeScene);
+gdjs.editorCode.userFunc0x1544e80(runtimeScene);
 
 }
 

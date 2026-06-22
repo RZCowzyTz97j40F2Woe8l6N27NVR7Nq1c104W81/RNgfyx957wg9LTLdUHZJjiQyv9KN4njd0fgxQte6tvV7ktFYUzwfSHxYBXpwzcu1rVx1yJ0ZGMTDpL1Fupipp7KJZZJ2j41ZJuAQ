@@ -49,7 +49,7 @@ gdjs.ratedCode.GDchristmasLightObjects1= [];
 gdjs.ratedCode.GDchristmasLightObjects2= [];
 
 
-gdjs.ratedCode.userFunc0xaa38d0 = function GDJSInlineCode(runtimeScene) {
+gdjs.ratedCode.userFunc0x1246be8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 /*//////////////////////////////////////////////////////////////////////*/
 // rated tab (recovered from code11.js). like demonlist - a vertical scroll
@@ -297,7 +297,7 @@ gdjs.ratedCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.ratedCode.userFunc0xaa38d0(runtimeScene);
+gdjs.ratedCode.userFunc0x1246be8(runtimeScene);
 
 }
 

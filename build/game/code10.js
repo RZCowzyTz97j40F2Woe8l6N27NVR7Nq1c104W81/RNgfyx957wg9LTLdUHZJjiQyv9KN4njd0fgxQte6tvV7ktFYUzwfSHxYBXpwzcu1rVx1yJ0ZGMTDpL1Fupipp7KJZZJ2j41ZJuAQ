@@ -39,7 +39,7 @@ gdjs.demonlistCode.GDchristmasLightObjects1= [];
 gdjs.demonlistCode.GDchristmasLightObjects2= [];
 
 
-gdjs.demonlistCode.userFunc0xaa38d0 = function GDJSInlineCode(runtimeScene) {
+gdjs.demonlistCode.userFunc0x1246be8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 /*//////////////////////////////////////////////////////////////////////*/
 // demonlist tab (recovered from code10.js). the recovered scene had no
@@ -269,7 +269,7 @@ gdjs.demonlistCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.demonlistCode.userFunc0xaa38d0(runtimeScene);
+gdjs.demonlistCode.userFunc0x1246be8(runtimeScene);
 
 }
 

@@ -3368,7 +3368,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.mainmenuCode.userFunc0x1ffd6e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.mainmenuCode.userFunc0x10b8318 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 /*//////////////////////////////////////////////////////////////////////*/
 // settings: the irreducible browser/storage parts only. everything
@@ -3458,12 +3458,12 @@ gdjs.mainmenuCode.eventsList40 = function(runtimeScene) {
 {
 
 
-gdjs.mainmenuCode.userFunc0x1ffd6e0(runtimeScene);
+gdjs.mainmenuCode.userFunc0x10b8318(runtimeScene);
 
 }
 
 
-};gdjs.mainmenuCode.userFunc0x1ffd808 = function GDJSInlineCode(runtimeScene) {
+};gdjs.mainmenuCode.userFunc0x21f3e28 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // music-quality toggle, live half (runs each frame in the mainmenu). the early index.html
 // override (musicoverride.js) already makes every music load fetch the correct quality from
@@ -3505,7 +3505,7 @@ if (window.__tgdmusicoverride) {
 }
 
 };
-gdjs.mainmenuCode.userFunc0x1ffd8e0 = function GDJSInlineCode(runtimeScene) {
+gdjs.mainmenuCode.userFunc0x21f3f00 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // settings-taslogo: overlay taslogo on the BitmapText 'TAS' tab (index 4); blank its text
 // via opacity 0 (kept clickable + sized for the underline) and centre the logo on the tab.
@@ -4066,7 +4066,7 @@ gdjs.mainmenuCode.eventsList40(runtimeScene);
 {
 
 
-gdjs.mainmenuCode.userFunc0x1ffd808(runtimeScene);
+gdjs.mainmenuCode.userFunc0x21f3e28(runtimeScene);
 
 }
 
@@ -4074,7 +4074,7 @@ gdjs.mainmenuCode.userFunc0x1ffd808(runtimeScene);
 {
 
 
-gdjs.mainmenuCode.userFunc0x1ffd8e0(runtimeScene);
+gdjs.mainmenuCode.userFunc0x21f3f00(runtimeScene);
 
 }
 

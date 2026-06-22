@@ -660,7 +660,7 @@ gdjs.mainlevelselectCode.mapOfGDgdjs_9546mainlevelselectCode_9546GDgamemodeObjec
 gdjs.mainlevelselectCode.mapOfGDgdjs_9546mainlevelselectCode_9546GDgamemodeBgObjects3Objects = Hashtable.newFrom({"gamemodeBg": gdjs.mainlevelselectCode.GDgamemodeBgObjects3});
 gdjs.mainlevelselectCode.eventsList9 = function(runtimeScene) {
 
-};gdjs.mainlevelselectCode.userFunc0x155bec0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.mainlevelselectCode.userFunc0x1561b00 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Get the time from the scene variable
 var time = runtimeScene.getVariables().get("time").getAsNumber();
@@ -683,7 +683,7 @@ gdjs.mainlevelselectCode.eventsList10 = function(runtimeScene) {
 {
 
 
-gdjs.mainlevelselectCode.userFunc0x155bec0(runtimeScene);
+gdjs.mainlevelselectCode.userFunc0x1561b00(runtimeScene);
 
 }
 

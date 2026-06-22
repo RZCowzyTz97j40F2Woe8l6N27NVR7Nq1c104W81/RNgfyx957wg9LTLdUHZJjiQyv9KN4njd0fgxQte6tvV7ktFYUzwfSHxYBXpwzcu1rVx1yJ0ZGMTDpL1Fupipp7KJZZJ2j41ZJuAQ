@@ -127,7 +127,7 @@ gdjs.mappackCode.GDchristmasLightObjects5= [];
 gdjs.mappackCode.GDchristmasLightObjects6= [];
 
 
-gdjs.mappackCode.userFunc0xaa38d0 = function GDJSInlineCode(runtimeScene) {
+gdjs.mappackCode.userFunc0x1246be8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const scene = runtimeScene;
 const P = (window.__mappack = window.__mappack || {});
@@ -208,7 +208,7 @@ gdjs.mappackCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.mappackCode.userFunc0xaa38d0(runtimeScene);
+gdjs.mappackCode.userFunc0x1246be8(runtimeScene);
 
 }
 
@@ -792,7 +792,7 @@ if (isConditionTrue_0) {
 
 };gdjs.mappackCode.mapOfGDgdjs_9546mappackCode_9546GDpageScrollLeftObjects1Objects = Hashtable.newFrom({"pageScrollLeft": gdjs.mappackCode.GDpageScrollLeftObjects1});
 gdjs.mappackCode.mapOfGDgdjs_9546mappackCode_9546GDpageScrollRightObjects1Objects = Hashtable.newFrom({"pageScrollRight": gdjs.mappackCode.GDpageScrollRightObjects1});
-gdjs.mappackCode.userFunc0x215f018 = function GDJSInlineCode(runtimeScene) {
+gdjs.mappackCode.userFunc0x128b0c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // qol-mappack: blank the '0'/'by 0' placeholder titles shown before a pack's level
 // data has been fetched/parsed, so the player doesn't see placeholder titles. the
@@ -1185,7 +1185,7 @@ gdjs.copyArray(runtimeScene.getObjects("pageScrollLeft"), gdjs.mappackCode.GDpag
 {
 
 
-gdjs.mappackCode.userFunc0x215f018(runtimeScene);
+gdjs.mappackCode.userFunc0x128b0c0(runtimeScene);
 
 }
 
