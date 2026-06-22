@@ -1,0 +1,13 @@
+node_modules/
+target/
+
+dependencies/tauri/src-tauri/gen/
+dependencies/tauri/src-tauri/icons/
+
+/packaged/
+dependencies/gdexporter/packaged/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
